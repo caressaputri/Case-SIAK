@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_diag_root" type="PapyrusUMLClassDiagram" name="Pembayaran Class Diagram" measurementUnit="Pixel">
+
+  <!-- ═══════════════ Top-level <<vm>> PembayaranSLCM Package ═══════════════ -->
+  <children xmi:type="notation:Shape" xmi:id="_n0002" type="Package_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n0003" type="Package_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_n0004" type="Package_PackagedElementCompartment">
+
+      <!-- ═══════════════ MMahasiswa (Row 1, left) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0300" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0301" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0302" type="Package_PackagedElementCompartment_CN">
+          <!-- Interface Mahasiswa -->
+          <children xmi:type="notation:Shape" xmi:id="_n0310" type="Interface_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0311" type="Interface_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0312" type="Interface_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0313" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0314" type="Interface_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0315"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0316"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0317"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0318"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0319" type="Interface_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n031a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n031b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n031c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n031d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n031e" type="Interface_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n031f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n031g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n031h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n031i"/>
+            </children>
+            <element xmi:type="uml:Interface" href="pembayaran.uml#_if_mahasiswa"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n031j" x="10" y="15"/>
+          </children>
+          <!-- Class MahasiswaImpl -->
+          <children xmi:type="notation:Shape" xmi:id="_n0330" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0331" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0332" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0333" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0334" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0335"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0336"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0337"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0338"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0339" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n033a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n033b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n033c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n033d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n033e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n033f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n033g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n033h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n033i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_mahasiswaimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n033j" x="170" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0303"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0304"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_mmahasiswa"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0305" x="20" y="30"/>
+      </children>
+
+      <!-- ═══════════════ MSemester (Row 1, center) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0400" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0401" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0402" type="Package_PackagedElementCompartment_CN">
+          <!-- Interface Semester -->
+          <children xmi:type="notation:Shape" xmi:id="_n0410" type="Interface_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0411" type="Interface_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0412" type="Interface_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0413" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0414" type="Interface_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0415"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0416"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0417"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0418"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0419" type="Interface_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n041a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n041b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n041c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n041d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n041e" type="Interface_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n041f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n041g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n041h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n041i"/>
+            </children>
+            <element xmi:type="uml:Interface" href="pembayaran.uml#_if_semester"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n041j" x="10" y="15"/>
+          </children>
+          <!-- Class SemesterImpl -->
+          <children xmi:type="notation:Shape" xmi:id="_n0430" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0431" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0432" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0433" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0434" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0435"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0436"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0437"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0438"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0439" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n043a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n043b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n043c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n043d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n043e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n043f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n043g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n043h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n043i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_semesterimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n043j" x="170" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0403"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0404"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_msemester"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0405" x="310" y="30"/>
+      </children>
+
+      <!-- ═══════════════ MMataKuliah (Row 1, right) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0500" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0501" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0502" type="Package_PackagedElementCompartment_CN">
+          <!-- Interface MataKuliah -->
+          <children xmi:type="notation:Shape" xmi:id="_n0510" type="Interface_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0511" type="Interface_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0512" type="Interface_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0513" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0514" type="Interface_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0515"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0516"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0517"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0518"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0519" type="Interface_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n051a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n051b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n051c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n051d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n051e" type="Interface_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n051f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n051g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n051h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n051i"/>
+            </children>
+            <element xmi:type="uml:Interface" href="pembayaran.uml#_if_matakuliah"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n051j" x="10" y="15"/>
+          </children>
+          <!-- Class MataKuliahImpl -->
+          <children xmi:type="notation:Shape" xmi:id="_n0530" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0531" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0532" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0533" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0534" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0535"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0536"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0537"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0538"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0539" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n053a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n053b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n053c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n053d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n053e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n053f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n053g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n053h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n053i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_matakuliahimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n053j" x="170" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0503"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0504"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_mmatakuliah"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0505" x="590" y="30"/>
+      </children>
+
+      <!-- ═══════════════ MTagihan (Row 2, left) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0200" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0201" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0202" type="Package_PackagedElementCompartment_CN">
+          <!-- Interface Tagihan -->
+          <children xmi:type="notation:Shape" xmi:id="_n0210" type="Interface_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0211" type="Interface_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0212" type="Interface_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0213" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0214" type="Interface_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0215"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0216"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0217"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0218"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0219" type="Interface_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n021a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n021b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n021c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n021d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n021e" type="Interface_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n021f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n021g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n021h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n021i"/>
+            </children>
+            <element xmi:type="uml:Interface" href="pembayaran.uml#_if_tagihan"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n021j" x="10" y="15"/>
+          </children>
+          <!-- Class TagihanImpl -->
+          <children xmi:type="notation:Shape" xmi:id="_n0230" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0231" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0232" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0233" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0234" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0235"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0236"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0237"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0238"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0239" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n023a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n023b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n023c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n023d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n023e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n023f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n023g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n023h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n023i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_tagihanimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n023j" x="170" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0203"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0204"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_mtagihan"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0205" x="20" y="300"/>
+      </children>
+
+      <!-- ═══════════════ MPembayaran (Row 2, center) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0100" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0101" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0102" type="Package_PackagedElementCompartment_CN">
+          <!-- Interface Pembayaran -->
+          <children xmi:type="notation:Shape" xmi:id="_n0110" type="Interface_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0111" type="Interface_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0112" type="Interface_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0113" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0114" type="Interface_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0115"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0116"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0117"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0118"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0119" type="Interface_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n011a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n011b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n011c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n011d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n011e" type="Interface_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n011f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n011g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n011h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n011i"/>
+            </children>
+            <element xmi:type="uml:Interface" href="pembayaran.uml#_if_pembayaran"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n011j" x="10" y="15"/>
+          </children>
+          <!-- Class PembayaranImpl -->
+          <children xmi:type="notation:Shape" xmi:id="_n0130" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0131" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0132" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0133" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0134" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0135"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0136"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0137"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0138"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0139" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n013a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n013b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n013c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n013d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n013e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n013f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n013g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n013h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n013i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_pembayaranimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n013j" x="170" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0103"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0104"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_mpembayaran"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0105" x="380" y="300"/>
+      </children>
+
+      <!-- ═══════════════ MPengisianRencanaStudi (Row 2, right) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0600" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0601" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0602" type="Package_PackagedElementCompartment_CN">
+          <!-- Interface PengisianRencanaStudi -->
+          <children xmi:type="notation:Shape" xmi:id="_n0610" type="Interface_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0611" type="Interface_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0612" type="Interface_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0613" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0614" type="Interface_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0615"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0616"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0617"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0618"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0619" type="Interface_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n061a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n061b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n061c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n061d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n061e" type="Interface_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n061f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n061g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n061h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n061i"/>
+            </children>
+            <element xmi:type="uml:Interface" href="pembayaran.uml#_if_prs"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n061j" x="10" y="15"/>
+          </children>
+          <!-- Class PengisianRencanaStudiImpl -->
+          <children xmi:type="notation:Shape" xmi:id="_n0630" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0631" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0632" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0633" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0634" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0635"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0636"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0637"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0638"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0639" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n063a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n063b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n063c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n063d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n063e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n063f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n063g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n063h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n063i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_prsimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n063j" x="170" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0603"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0604"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_mprs"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0605" x="780" y="300"/>
+      </children>
+
+      <!-- ═══════════════ DPreCheckPembayaran (Row 3, left) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0700" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0701" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0702" type="Package_PackagedElementCompartment_CN">
+          <!-- Class PengisianRencanaStudiImpl (delta) -->
+          <children xmi:type="notation:Shape" xmi:id="_n0730" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0731" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0732" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0733" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0734" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0735"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0736"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0737"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0738"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0739" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n073a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n073b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n073c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n073d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n073e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n073f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n073g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n073h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n073i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_dpre_prsimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n073j" x="10" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0703"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0704"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_dprecheckpembayaran"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0705" x="130" y="620"/>
+      </children>
+
+      <!-- ═══════════════ DPostCheckIRS (Row 3, right) ═══════════════ -->
+      <children xmi:type="notation:Shape" xmi:id="_n0800" type="Package_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_n0801" type="Package_NameLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_n0802" type="Package_PackagedElementCompartment_CN">
+          <!-- Class PembayaranImpl (delta) -->
+          <children xmi:type="notation:Shape" xmi:id="_n0830" type="Class_Shape_CN">
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0831" type="Class_NameLabel_CN"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_n0832" type="Class_FloatingNameLabel_CN">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_n0833" y="15"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0834" type="Class_AttributeCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n0835"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n0836"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n0837"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0838"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n0839" type="Class_OperationCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n083a"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n083b"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n083c"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n083d"/>
+            </children>
+            <children xmi:type="notation:BasicCompartment" xmi:id="_n083e" type="Class_NestedClassifierCompartment_CN">
+              <styles xmi:type="notation:TitleStyle" xmi:id="_n083f"/>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_n083g"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_n083h"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n083i"/>
+            </children>
+            <element xmi:type="uml:Class" href="pembayaran.uml#_cls_dpost_pembimpl"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n083j" x="10" y="15"/>
+          </children>
+          <styles xmi:type="notation:TitleStyle" xmi:id="_n0803"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0804"/>
+        </children>
+        <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_dpostcheckirs"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0805" x="620" y="620"/>
+      </children>
+
+      <styles xmi:type="notation:TitleStyle" xmi:id="_n0005"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0006"/>
+    </children>
+    <element xmi:type="uml:Package" href="pembayaran.uml#_pkg_main"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n0007" x="20" y="20"/>
+  </children>
+
+  <!-- ═══════════════ Diagram Styles ═══════════════ -->
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_n0008" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_n0009"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_n000a" diagramKindId="org.eclipse.papyrus.uml.diagram.class">
+    <owner xmi:type="uml:Model" href="pembayaran.uml#_root"/>
+  </styles>
+  <element xmi:type="uml:Model" href="pembayaran.uml#_root"/>
+
+  <!-- ═══════════════ Association Edges ═══════════════ -->
+
+  <!-- Pembayaran → Tagihan -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1001" type="Association_Edge" source="_n0130" target="_n0230">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1002" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1003" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1004" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1005" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1006" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1007" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1008" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1009" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n100a" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n100b" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n100c" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n100d" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n100e"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_pemb_tagihan"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n100f" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- Pembayaran → Mahasiswa -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1010" type="Association_Edge" source="_n0130" target="_n0330">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1011" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1012" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1013" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1014" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1015" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1016" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1017" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1018" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1019" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n101a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n101b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n101c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n101d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_pemb_mhs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n101e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- Pembayaran → Semester -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1020" type="Association_Edge" source="_n0130" target="_n0430">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1021" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1022" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1023" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1024" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1025" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1026" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1027" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1028" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1029" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n102a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n102b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n102c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n102d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_pemb_sem"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n102e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- Tagihan → Mahasiswa -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1030" type="Association_Edge" source="_n0230" target="_n0330">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1031" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1032" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1033" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1034" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1035" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1036" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1037" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1038" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1039" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n103a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n103b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n103c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n103d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_tag_mhs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n103e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- Tagihan → Semester -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1040" type="Association_Edge" source="_n0230" target="_n0430">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1041" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1042" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1043" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1044" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1045" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1046" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1047" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1048" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1049" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n104a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n104b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n104c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n104d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_tag_sem"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n104e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- PRS → Mahasiswa -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1050" type="Association_Edge" source="_n0630" target="_n0330">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1051" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1052" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1053" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1054" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1055" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1056" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1057" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1058" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1059" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n105a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n105b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n105c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n105d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_prs_mhs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n105e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- PRS → Semester -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1060" type="Association_Edge" source="_n0630" target="_n0430">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1061" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1062" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1063" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1064" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1065" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1066" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1067" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1068" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1069" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n106a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n106b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n106c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n106d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_prs_sem"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n106e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- PRS → MataKuliah -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1070" type="Association_Edge" source="_n0630" target="_n0530">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1071" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1072" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1073" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1074" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1075" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1076" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1077" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1078" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1079" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n107a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n107b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n107c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n107d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_prs_mk"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n107e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- DPreCheck modifies → PRS module class -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1080" type="Association_Edge" source="_n0730" target="_n0630">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1081" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1082" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1083" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1084" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1085" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1086" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1087" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1088" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1089" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n108a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n108b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n108c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n108d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_dpre_modifies"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n108e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- DPreCheck → Pembayaran -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1090" type="Association_Edge" source="_n0730" target="_n0130">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1091" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1092" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1093" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1094" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1095" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1096" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1097" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1098" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1099" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n109a" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n109b" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n109c" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n109d"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_dpre_pemb"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n109e" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- DPostCheck modifies → Pembayaran module class -->
+  <edges xmi:type="notation:Connector" xmi:id="_n10a0" type="Association_Edge" source="_n0830" target="_n0130">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10a1" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10a2" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10a3" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10a4" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10a5" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10a6" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10a7" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10a8" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10a9" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10aa" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10ab" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10ac" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n10ad"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_dpost_modifies"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n10ae" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- DPostCheck → PRS -->
+  <edges xmi:type="notation:Connector" xmi:id="_n10b0" type="Association_Edge" source="_n0830" target="_n0630">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10b1" type="Association_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10b2" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10b3" type="Association_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10b4" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10b5" type="Association_TargetRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10b6" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10b7" type="Association_SourceRoleLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10b8" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10b9" type="Association_SourceMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10ba" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n10bb" type="Association_TargetMultiplicityLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n10bc" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n10bd"/>
+    <element xmi:type="uml:Association" href="pembayaran.uml#_assoc_dpost_prs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n10be" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- ═══════════════ InterfaceRealization Edges ═══════════════ -->
+
+  <!-- PembayaranImpl → Pembayaran -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1500" type="InterfaceRealization_Edge" source="_n0130" target="_n0110">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1501" type="InterfaceRealization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1502" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1503" type="InterfaceRealization_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1504" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n1505"/>
+    <element xmi:type="uml:InterfaceRealization" href="pembayaran.uml#_ir_pemb"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n1506" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- TagihanImpl → Tagihan -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1510" type="InterfaceRealization_Edge" source="_n0230" target="_n0210">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1511" type="InterfaceRealization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1512" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1513" type="InterfaceRealization_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1514" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n1515"/>
+    <element xmi:type="uml:InterfaceRealization" href="pembayaran.uml#_ir_tag"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n1516" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- MahasiswaImpl → Mahasiswa -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1520" type="InterfaceRealization_Edge" source="_n0330" target="_n0310">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1521" type="InterfaceRealization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1522" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1523" type="InterfaceRealization_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1524" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n1525"/>
+    <element xmi:type="uml:InterfaceRealization" href="pembayaran.uml#_ir_mhs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n1526" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- SemesterImpl → Semester -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1530" type="InterfaceRealization_Edge" source="_n0430" target="_n0410">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1531" type="InterfaceRealization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1532" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1533" type="InterfaceRealization_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1534" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n1535"/>
+    <element xmi:type="uml:InterfaceRealization" href="pembayaran.uml#_ir_sem"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n1536" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- MataKuliahImpl → MataKuliah -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1540" type="InterfaceRealization_Edge" source="_n0530" target="_n0510">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1541" type="InterfaceRealization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1542" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1543" type="InterfaceRealization_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1544" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n1545"/>
+    <element xmi:type="uml:InterfaceRealization" href="pembayaran.uml#_ir_mk"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n1546" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+  <!-- PengisianRencanaStudiImpl → PengisianRencanaStudi -->
+  <edges xmi:type="notation:Connector" xmi:id="_n1550" type="InterfaceRealization_Edge" source="_n0630" target="_n0610">
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1551" type="InterfaceRealization_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1552" y="40"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_n1553" type="InterfaceRealization_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_n1554" y="60"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_n1555"/>
+    <element xmi:type="uml:InterfaceRealization" href="pembayaran.uml#_ir_prs"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n1556" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+
+</notation:Diagram>
